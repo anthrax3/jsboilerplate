@@ -27,7 +27,7 @@ Install your dependencies
 ```
 npm install hapi inert gulp gulp-concat gulp-sass normalize.css --save
 npm install browserify babelify babel-preset-es2015 babel-preset-react --save
-npm install react react-dom react-redux redux --save
+npm install react react-dom react-redux redux radium --save
 
 ```
 
