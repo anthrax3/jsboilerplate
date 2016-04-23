@@ -5,7 +5,7 @@ const gulpSass = require('gulp-sass');
 const HTMLS = ["client/index.html"];
 const STYLES = [
   "node_modules/normalize.css/normalize.css",
-  "client/index.css"
+  "client/index.scss"
   // include all other css & scss files in here
 ];
 const STYLE = "index.css";
