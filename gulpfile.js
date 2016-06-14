@@ -23,4 +23,9 @@ gulp.task("htmls", function() {
   .pipe(gulp.dest(DESTINATION))
 });
 
+gulp.task("watch", ["styles", "htmls"], () => {
+  gulp.watch(STYLES, ["styles"])
+  gulp.watch(HTMLS, ["htmls"])
+});
+
 gulp.task('default', ["styles", "htmls"]);
