@@ -1,7 +1,19 @@
 import React, {Component, PropTypes} from "react";
+import {connect} from "react-redux";
 import Radium from "radium";
 
+const styles = {
+  example: {
+    backgroundColor: "Tomato",
+    border: "10px solid Firebrick"
+  },
+  h1Example: {
+    color: "moccasin"
+  }
+};
 @Radium
+@connect((state) => {
+});
 class Example extends Component {
 
   static propTypes = {
@@ -16,16 +28,6 @@ class Example extends Component {
         <p>{this.props.exampleProps}</p>
       </div>
     );
-  }
-};
-
-var styles = {
-  example: {
-    backgroundColor: "Tomato",
-    border: "10px solid Firebrick"
-  },
-  h1Example: {
-    color: "moccasin"
   }
 };
 
