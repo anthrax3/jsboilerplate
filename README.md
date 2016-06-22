@@ -3,7 +3,7 @@ javascript starter pack
 
 Download the zip file or git clone this repository.
 
-To run your app on the latest stable version of node (with es2015) use [NVM](https://github.com/creationix/nvm) to manager your node version.
+To run your app on the latest stable version of node (with es2015) use [NVM](https://github.com/creationix/nvm) to manage your node version.
 ```
 nvm install stable
 ```
