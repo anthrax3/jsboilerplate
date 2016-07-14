@@ -54,6 +54,14 @@ Add the following scripts to your package.json's npm scripts.
 "watch:test": "chokidar './client/' --initial --command 'npm run test --silent'"
 ```
 
+Rename the following files:
+
+`babelrc` --> `.babelrc`
+`eslintrc` --> `.eslintrc`
+`gitignore` --> `.gitignore`
+
+> Learn more about dotfiles [here](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789#.12j8urmbt).
+
 --------------------------------------------------------------------------------
 
 # README
